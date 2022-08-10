@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "initCommands":["settings set target.disable-aslr false"],
+            "request": "launch",
+            "name": "Debug",
+            "program": "node",
+            "args": ["hello.js"],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
